@@ -1,4 +1,4 @@
-FROM alphine:latest
+FROM ubuntu:latest
 RUN apk add --update nodejs npm
 WORKDIR /app
 COPY . .
